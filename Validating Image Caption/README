@@ -2,7 +2,7 @@
 
 This project is designed to create a system that determines the degree of consistency between an image and its associated caption. The system combines the power of Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN)/Transformer, and Feedforward Neural Networks (FFNN) to provide a consistent verdict.
 
-[Overview]#Overview
+[Overview](Overview)
 
 The goal of this project is to build a deep neural network model that takes an image and its associated caption as input and outputs a value between 0 and 1, indicating the degree of consistency. A value of 1 implies a high degree of consistency between the image and caption, while 0 implies inconsistency.
 
