@@ -30,7 +30,6 @@ The project can be divided into several stages:
 
 
 ## Project Contributors
-
-Muthyala Leela Sri Pragna
-Nikitha Narakulla
-Vineetha Vennela
+   - Muthyala Leela Sri Pragna
+   - Nikitha Narakulla
+   - Vineetha Vennela
