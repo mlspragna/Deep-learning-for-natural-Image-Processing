@@ -27,9 +27,3 @@ The project can be divided into several stages:
    - Concatenate the image and caption feature vectors.
    - Use a Feedforward Neural Network (FFNN) to learn the relationship between the image and caption features.
    - The FFNN outputs a value between 0 and 1, indicating consistency.
-
-
-## Project Contributors
-   - Muthyala Leela Sri Pragna
-   - Nikitha Narakulla
-   - Vineetha Vennela
