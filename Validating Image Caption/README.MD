@@ -15,15 +15,15 @@ The project can be divided into several stages:
    - Preprocess the data, including image resizing and caption tokenization.
 
 2. **Stage 1: Image Processing (CNN)**:
-   - Use a pre-trained CNN model(we have used InceptionV3) to extract meaningful image features.
+   - Use a pre-trained CNN model(used InceptionV3) to extract meaningful image features.
    - Fine-tune the CNN model if necessary to adapt to the specific task.
    - Output: Image feature vector.
 
 3. **Stage 2: Caption Processing (RNN/Transformer)**:
-   - Utilize an RNN (LSTM/GRU) or Transformer model to process tokenized captions.
+   - Utilised an RNN (LSTM) to process tokenized captions.
    - Generate a caption feature vector that encodes semantic information.
    
 4. **Stage 3: Combining Features (FFNN)**:
    - Concatenate the image and caption feature vectors.
-   - Use a Feedforward Neural Network (FFNN) to learn the relationship between the image and caption features.
+   - Used a Feedforward Neural Network (FFNN) to learn the relationship between the image and caption features.
    - The FFNN outputs a value between 0 and 1, indicating consistency.
